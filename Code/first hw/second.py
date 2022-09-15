@@ -3,7 +3,7 @@ def main():
     tp = input()
 
     if tp == "cm":
-        print(ln/2.54, "inches")
+        print(ln*0.3937, "inches")
     elif tp == "inch":
         print(ln*2.54, "cm")
     else:
