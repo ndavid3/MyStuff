@@ -3,10 +3,11 @@ def main():
     tp = input()
 
     if tp == "cm":
-        print(ln*0.3937, "inches")
+        print(ln/2.54, "inches")
     elif tp == "inch":
         print(ln*2.54, "cm")
     else:
         print("Not correct unit!")
 
-main()
+if __name__ == '__main__':
+    main()
