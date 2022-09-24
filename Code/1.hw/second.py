@@ -1,5 +1,5 @@
 def main():
-    ln = int(input("Adjon meg egy számot és egy mértékegységet (cm/inch): \n"))
+    ln = float(input("Adjon meg egy számot és egy mértékegységet (cm/inch): \n"))
     tp = input()
 
     if tp == "cm":
