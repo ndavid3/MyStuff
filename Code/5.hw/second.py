@@ -15,7 +15,6 @@ for key, value in rep.items():
     wrd = wrd.replace(key, value)
 
 wrd = wrd.lower()
-print(wrd)
 
 bl = 0
 hp = 0
